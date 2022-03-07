@@ -1,4 +1,6 @@
-import { useFetch } from '../hooks/useFetch';
+import { useQuery } from 'react-query';
+
+import { api } from '../services/axios';
 
 type Repository = {
   full_name: string;
@@ -6,8 +8,18 @@ type Repository = {
 };
 
 export function Repositories() {
-  const { data: repositories, isFetching } = useFetch<Repository[]>(
-    'users/arrudadev/repos',
+  const oneMinute = 1000 * 60;
+
+  const { data: repositories, isFetching } = useQuery<Repository[]>(
+    'repos',
+    async () => {
+      const response = await api.get('/users/arrudadev/repos');
+
+      return response.data;
+    },
+    {
+      staleTime: oneMinute,
+    },
   );
 
   return (
