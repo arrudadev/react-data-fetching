@@ -1,11 +1,7 @@
 import { useQuery } from 'react-query';
+import { Link } from 'react-router-dom';
 
 import { api } from '../services/axios';
-
-type Repository = {
-  full_name: string;
-  description: string;
-};
 
 export function Repositories() {
   const oneMinute = 1000 * 60;
@@ -26,11 +22,14 @@ export function Repositories() {
     <ul>
       {isFetching && <p>Carregando...</p>}
 
-      {repositories?.map(repo => {
+      {repositories?.map(repository => {
         return (
-          <li key={repo.full_name}>
-            <strong>{repo.full_name}</strong>
-            <p>{repo.description}</p>
+          <li key={repository.full_name}>
+            <Link to={`repos/${repository.full_name}`}>
+              <strong>{repository.full_name}</strong>
+            </Link>
+
+            <p>{repository.description}</p>
           </li>
         );
       })}
