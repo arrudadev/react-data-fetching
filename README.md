@@ -1,6 +1,6 @@
 <h1 align="center">
   <div style="display: inline-block;">
-    <img src="https://raw.githubusercontent.com/arrudadev/react-data-fetching/main/.github/assets/react-query.svg" height="100" width="100" />
+    <img src="https://raw.githubusercontent.com/arrudadev/react-data-fetching/main/.github/assets/react-query.svg" width="500" />
   </div>
   Data fetching with React Query
   <br>
