@@ -40,3 +40,12 @@
 <p align="justify">
   This project is a small example of how to fetching data with React Query. React Query is used for fetch, cache and update data in your React and React Native applications all without touching any "global state". The purpose of this project is to study how to build applications with React Query and fetch data with modern way.
 </p>
+
+<h2 id="technologies"> :computer: Technologies</h2>
+
+This project was developed with the following technologies:
+
+- [React](https://reactjs.org)
+- [Vite](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React Query](https://react-query.tanstack.com/)
