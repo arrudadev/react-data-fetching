@@ -49,3 +49,50 @@ This project was developed with the following technologies:
 - [Vite](https://vitejs.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 - [React Query](https://react-query.tanstack.com/)
+
+<h2 id="getting-started"> :runner: Getting Started</h2>
+
+<p align="justify">
+  To run the project locally follow these steps:
+</p>
+
+<h3 id="prerequisites"> :warning: Prerequisites</h3>
+
+- [NodeJs](https://nodejs.org/en/) Prefer to install the LTS version.
+- [Yarn](https://yarnpkg.com/) Need to install latest version prior to 2.0 version.
+
+<h3 id="installation"> :construction_worker: Installation</h3>
+
+<p align="justify">
+  1. To clone the project, run this command:
+</p>
+
+```
+git clone https://github.com/arrudadev/react-data-fetching.git
+```
+
+<p align="justify">
+  2. Install dependencies:
+</p>
+
+```
+yarn install
+```
+
+<h3 id="usage"> :metal: Usage</h3>
+
+<p align="justify">
+  1. Run the following command to start the application in a development environment:
+</p>
+
+```
+yarn dev
+```
+
+<p align="justify">
+  2. Open the project into your browser in:
+</p>
+
+```
+http://localhost:3000
+```
