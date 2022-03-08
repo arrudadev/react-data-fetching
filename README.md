@@ -20,3 +20,5 @@
   <a href="https://github.com/arrudadev/react-data-fetching/issues">Report Bug</a> •
   <a href="https://github.com/arrudadev/react-data-fetching/issues">Request Feature</a>
 </p>
+
+<img src="https://raw.githubusercontent.com/arrudadev/react-data-fetching/main/.github/assets/cover.png" height="500" width="100%" alt="cover" />
